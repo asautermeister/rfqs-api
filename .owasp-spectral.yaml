@@ -18,7 +18,7 @@ rules:
             - required: ["maxLength"]
             - required: ["enum"]
             - required: ["const"]
-            - required:
+            - required: ["format"]
               properties:
                 format:
                   type: string
